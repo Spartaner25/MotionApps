@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/item01" android:checkable="false" android:enabled="true" android:visible="true" android:title="@string/pctrl"><menu><item android:id="@+id/item05" android:title="@string/gyro_power" android:checked="true" android:checkable="true"></item>
+<item android:id="@+id/item06" android:title="@string/accel_power" android:checked="true" android:checkable="true"></item>
+<item android:id="@+id/item07" android:title="@string/compass_power" android:checked="true" android:checkable="true"></item>
+</menu>
+</item>
+<item android:id="@+id/item02" android:title="@string/urate"><menu>
+<group android:id="@+id/group01" android:visible="true" android:checkableBehavior="single" android:enabled="true"><item android:id="@+id/item08" android:title="@string/rate_200" android:checked="false"></item><item android:id="@+id/item09" android:title="@string/rate_100" android:checked="true"></item><item android:id="@+id/item10" android:title="@string/rate_30" android:checked="false"></item><item android:id="@+id/item11" android:title="@string/rate_5" android:checked="false"></item></group>
+</menu>
+</item>
+<item android:id="@+id/item03" android:title="@string/sdata"><menu><item android:id="@+id/item12" android:title="@string/sen_gy" android:checked="false" android:checkable="true"></item>
+<item android:id="@+id/item13" android:title="@string/sen_a" android:checked="false" android:checkable="true"></item>
+<item android:id="@+id/item14" android:title="@string/sen_m" android:checked="false" android:checkable="true"></item>
+<item android:id="@+id/item15" android:title="@string/sen_or" android:checked="false" android:checkable="true"></item>
+<item android:id="@+id/item16" android:title="@string/sen_rv" android:checked="true" android:checkable="true"></item>
+<item android:id="@+id/item17" android:title="@string/sen_la" android:checked="false" android:checkable="true"></item>
+<item android:id="@+id/item18" android:title="@string/sen_gr" android:checked="false" android:checkable="true"></item>
+</menu>
+</item>
+
+<item android:id="@+id/item04" android:title="@string/resetcal"></item>
+<item android:title="@string/selftest" android:id="@+id/item19"></item>
+<item android:id="@+id/item20" android:title="@string/setbias"></item>
+<item android:id="@+id/item21" android:title="@string/accel_cal"></item>
+<item android:title="@string/set_local_field" android:id="@+id/item1"></item>
+</menu>

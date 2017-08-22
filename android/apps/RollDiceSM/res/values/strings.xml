@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setbias">Set Biases to 0</string>
+    <string name="selftest">Run Self Test</string>
+    <string name="accel_cal">Run Accel Calibrate</string>
+    <string name="sen_m">Mag Field Data</string>
+    <string name="sen_a">Accel Data</string>
+    <string name="sen_gy">Gyro Data</string>
+    <string name="sen_or">Orientation Data</string>
+    <string name="sen_rv">Quaternion Data</string>
+    <string name="sen_la">Linear Accel Data</string>
+    <string name="sen_gr">Gravity Data</string>
+    <string name="rate_5">5Hz (200ms delay)</string>
+    <string name="rate_30">15Hz (60ms delay)</string>
+    <string name="rate_100">50Hz (20ms delay)</string>
+    <string name="rate_200">200 Hz (5ms delay)</string>
+    <string name="compass_power">Compass Power</string>
+    <string name="accel_power">Accel Power</string>
+    <string name="gyro_power">Gyro Power</string>
+    <string name="resetcal">Reset Cal</string>
+    <string name="sdata">Sensor Data</string>
+    <string name="urate">Update Rate</string>
+    <string name="pctrl">Power Control</string>
+    <string name="hello">Hello World, SensorAndroid!</string>
+    <string name="app_name">RollDiceSM</string>
+    <string name="set_local_field">Set Local Mag Field</string>
+</resources>

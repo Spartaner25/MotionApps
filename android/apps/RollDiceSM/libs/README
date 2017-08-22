@@ -1,0 +1,6 @@
+copy the jar here (e.g.)
+
+# old implementations
+cp out/target/common/obj/JAVA_LIBRARIES/com.invensense.android.hardware.sysapi_intermediates/classes.jar ./com.invensense.android.hardware.sysapi.jar
+# new implementations
+cp out/host/linux-x86/framework/com.invensense.android.hardware.sysapi.jar ./com.invensense.android.hardware.sysapi.jar
